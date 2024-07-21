@@ -1,13 +1,20 @@
 .friendsItem {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
    padding: 15px;
+   width: 100px;
+   text-align: center;
    border-radius: 8px;
    border: 1px solid #000000;
 }
-.friendsItem p:last-child{
+
+.friendsItem p:last-child {
    font-size: 14px;
 }
 
-.friendsDescr{
+.friendsDescr {
    margin: 10px 0 5px;
    font-size: 20px;
 }
