@@ -1,0 +1,25 @@
+.tableContent{
+   margin: 0 auto 30px;
+   width: 100%;
+   border-collapse: collapse;
+   border: 1px solid #000
+}
+
+.thead{
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #000;
+   color: #fff;
+   background: #1d1c1ceb;
+}
+
+.tbody:nth-child(even){
+   background: #ccc;
+}
+
+.td{
+   padding: 5px;
+   font-size: 16px;
+   text-align: center;
+   border: 1px solid #000;
+}
