@@ -13,15 +13,15 @@ function TransactionHistory({ items }) {
 					</tr>
 				</thead>
 
-				{items.map(el => (
-					<tbody key={el.id} className={styles.tbody}>
-						<tr>
+				<tbody className={styles.tbody}>
+					{items.map(el => (
+						<tr key={el.id}>
 							<td className={styles.td}>{el.type}</td>
 							<td className={styles.td}>{el.amount}</td>
 							<td className={styles.td}>{el.currency}</td>
 						</tr>
-					</tbody>
-				))}
+					))}
+				</tbody>
 			</table>
 		</div>
 	)
